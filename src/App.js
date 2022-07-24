@@ -27,11 +27,12 @@ import {
   ColorPicker,
   ColorMapping,
   Editor,
+  Line,
 } from "./pages";
 import "./App.css";
 
 const App = () => {
-  const activeMenu = false;
+  const activeMenu = true;
 
   return (
     <div>
@@ -85,7 +86,7 @@ const App = () => {
               <Route path="/color-picker" element={<ColorPicker />} />
 
               {/* Charts */}
-              <Route path="/line" element={<LineChart />} />
+              <Route path="/line" element={<Line />} />
               <Route path="/area" element={<Area />} />
               <Route path="/bar" element={<Bar />} />
               <Route path="/pie" element={<Pie />} />
