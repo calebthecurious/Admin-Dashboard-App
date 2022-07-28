@@ -38,13 +38,18 @@ const Ecommerce = () => {
             </div>
           </div>
           <div className="mt-6">
-            <Button
-              color="white"
-              bgColor={currentColor}
-              text="Download"
-              borderRadius="10px"
-              size="md"
-            />
+            <a
+              href="https://miro.medium.com/max/964/0*6WVeWKb2_FGQQAHi.png"
+              download="GFG"
+            >
+              <Button
+                color="white"
+                bgColor={currentColor}
+                text="Download"
+                borderRadius="10px"
+                size="md"
+              />
+            </a>
           </div>
         </div>
 
@@ -121,12 +126,17 @@ const Ecommerce = () => {
                 />
               </div>
               <div className="mt-10">
-                <Button
-                  color="white"
-                  bgColor={currentColor}
-                  text="Download Report"
-                  borderRadius="10px"
-                />
+                <a
+                  href="https://digitalsynopsis.com/wp-content/uploads/2015/03/web-designer-developer-jokes-humour-funny-19.jpg"
+                  download="Reality"
+                >
+                  <Button
+                    color="white"
+                    bgColor={currentColor}
+                    text="Download Report"
+                    borderRadius="10px"
+                  />
+                </a>
               </div>
             </div>
             <div>
